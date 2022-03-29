@@ -1,0 +1,43 @@
+Recommend to check the integrity using BLAKE3, which is faster.
+    https://github.com/BLAKE3-team/BLAKE3
+
+transcript
+- 100 GB
+- The original Zerocash Sapling Stage 1 transcript
+
+SHA1:       da57abe02c34991b5dac659b53a9d77c61565d6d
+SHA256:     605609b98e339554832394181a3aa5880c48cffb0b603ca0dd7ce47760ca2cbe
+BLAKE3:     944872c4d7efebd9430877df5d400fed535edfba75594d86bf363ab7b4d2285e
+
+g1_alpha_coeffs
+- 396 MB
+- The extracted coefficients of (alpha * tau^0) G, (alpha * tau^1) G, ..., (alpha * tau^{1 << 21}) G
+
+SHA1:       f20a8f812a165261289fa3b5444d64094998eedb
+SHA256:     30dbe4301b31b0de37e04b986c0182ea2706914875185240e2406acd18ed15ba
+BLAKE3:     08b2ef4a94043535a6cefae327bbde73c1a87329985679acbf16f881603290de
+
+g1_beta_coeffs
+- 396 MB
+- The extracted coefficients of (beta * tau^0) G, (beta * tau^1) G, ..., (beta * tau^{1 << 21}) G
+
+SHA1:       f0e202cf2fa964610d9ccd20faa65844b131df85
+SHA256:     f94ea2961fb1b4bdf6069a759db71aa00e8bf974a90ce91f53b18c8b3e7701c8
+BLAKE3:     3eddc3c49d5c0cf4c03c9cc7f0b4602f0242c59a8cf43688912b86c6b28f518b
+
+g1_coeffs
+- 792 MB
+- The extracted coefficients of (tau^0) G, (tau^1) G, ..., (tau^{1 << 22 - 1}) G
+
+SHA1:       efc324e76ebc7691c1e193e644a4f22edc66964f
+SHA256:     91c76a0478f51546963ef85eb4a1a0a1d4c22e0876f1f855d0a99363f6f1ecd2
+BLAKE3:     4b3e6ece44dec43a831bec173a126e4cedbc9b059ffd950c166058f84b6c394b
+
+g2_coeffs
+- 792 MB
+- The extracted coefficients of (tau^0) H, (tau^1) H, ..., (tau^{1 << 22 - 1}) H
+
+SHA1:       aacbbca847481850579dceed644d2080d27acf85
+SHA256:     55c8ac45c68d3163464e8964b6eb8ed0036ab6f766153be3dbe1ea0060b6828e
+BLAKE3:     e019768dc2dd8e80c1d50c76b27209ac962a195ee670f227ec94f74c58ee14ac
+

@@ -3,3 +3,10 @@
 transcript
 challenge
 response
+g1_alpha_coeffs
+g1_beta_coeffs
+g1_coeffs
+g2_coeffs
+
+.DS_Store
+.idea
